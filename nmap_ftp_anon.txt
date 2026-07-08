@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Wed Jul  8 15:21:34 2026 as: /usr/lib/nmap/nmap --privileged -p21 --script ftp-anon -oN nmap_ftp_anon.txt 10.0.2.8
+Nmap scan report for 10.0.2.8
+Host is up (0.0011s latency).
+
+PORT   STATE SERVICE
+21/tcp open  ftp
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| -rw-r--r--    1 0        0             336 Jul 07 17:26 backup.zip
+|_drwxr-xr-x    2 0        0            4096 Jul 08 19:09 upload
+MAC Address: 08:00:27:67:DD:C3 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Wed Jul  8 15:21:35 2026 -- 1 IP address (1 host up) scanned in 0.75 seconds
